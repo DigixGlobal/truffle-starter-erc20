@@ -1,0 +1,31 @@
+{
+  "name": "@digix/dgx-note",
+  "version": "0.0.1",
+  "description": "Digix Note Wrapper Contract",
+  "author": "DigixGlobal",
+  "homepage": "https://github.com/DigixGlobal/dgx-note",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigixGlobal/dgx-note.git"
+  },
+  "license": "BSD-3-Clause",
+  "scripts": {},
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-optimize": "^1.0.1",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.1"
+  },
+  "dependencies": {
+    "awaiting": "^2.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "zeppelin-solidity": "git://github.com/openzeppelin/zeppelin-solidity.git#726593c0a21e866ca80a38189abe3e76ed171dc8"
+  }
+}

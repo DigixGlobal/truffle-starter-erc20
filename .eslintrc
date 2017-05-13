@@ -1,0 +1,25 @@
+{
+  "extends": "airbnb",
+  "env" : {
+    "mocha": true
+  },
+  "globals" : {
+    "assert": true,
+    "artifacts": true,
+    "contract": true,
+    "web3": true
+  },
+  "rules" : {
+    "func-names": [0],
+    "prefer-arrow-callback": [0],
+    "arrow-body-style": [0],
+    "max-len": [0],
+    "import/extensions": [0],
+    "import/first": [0],
+    "class-methods-use-this": [0],
+    "react/forbid-prop-types": [0],
+    "react/prefer-stateless-function": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "new-cap": [0]
+  }
+}
